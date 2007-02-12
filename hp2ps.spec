@@ -1,5 +1,5 @@
 Summary:	Convert the .hp files into nice PostScript graphs
-Summary(pl):	Konwersja plików .hp do ³adnych wykresów w PostScripcie
+Summary(pl.UTF-8):   Konwersja plikÃ³w .hp do Å‚adnych wykresÃ³w w PostScripcie
 Name:		hp2ps
 Version:	1.0
 Release:	1
@@ -12,8 +12,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Convert the .hp files into nice PostScript graphs.
 
-%description -l pl
-Narzêdzie konwertuj±ce pliki .hp do ³adnych wykresów w PostScripcie.
+%description -l pl.UTF-8
+NarzÄ™dzie konwertujÄ…ce pliki .hp do Å‚adnych wykresÃ³w w PostScripcie.
 
 %prep
 %setup -q -n %{name}
